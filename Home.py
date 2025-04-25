@@ -82,7 +82,7 @@ st.markdown("##")
 # Fungsi untuk load dan preprocessing data dengan cache
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:/Users/TheScientist/OneDrive/Desktop/DBM_with_cache/Source/datalatihanbuatdashboard.csv")
+    df = pd.read_csv("Source/datalatihanbuatdashboard.csv")
 
     # Konversi kolom tanggal
     df["TANGGAL"] = pd.to_datetime(df["TANGGAL"], errors='coerce')
