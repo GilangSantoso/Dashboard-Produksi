@@ -9,7 +9,7 @@ import scipy.stats as stats
 import io
 from pandas import ExcelWriter
 
-st.set_page_config(page_title="Dashboard", page_icon="🚀", layout="wide")
+st.set_page_config(page_title="Duta Beton Mandiri", page_icon="🚀", layout="wide")
 
 st.markdown("""
     <style>
