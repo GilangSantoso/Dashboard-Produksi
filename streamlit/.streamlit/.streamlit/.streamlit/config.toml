@@ -1,7 +1,0 @@
-[theme]
-base="dark"
-primaryColor="#008fff"  # Biru khas link di GitHub dark
-backgroundColor="#0D1117"  # Latar utama GitHub dark
-secondaryBackgroundColor="#161B22"  # Kartu/latar sekunder GitHub
-textColor="#C9D1D9"  # Teks utama di GitHub dark
-font="sans serif"
