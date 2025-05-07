@@ -103,8 +103,8 @@ def load_data(file_path, sheet_name="Sheet1"):
         st.stop()
 
 # Load data untuk kedua halaman
-df_production = load_data("Source/Production.csv")
-df_used = load_data("Source/Used.csv")
+df_production = load_data("Source/Production.xlsx")
+df_used = load_data("Source/Used.xlsx")
 
 # Dictionary bulan
 month_dict = {
